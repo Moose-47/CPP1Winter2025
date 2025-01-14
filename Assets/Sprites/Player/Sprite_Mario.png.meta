@@ -217,7 +217,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -231,7 +231,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -296,12 +296,12 @@ TextureImporter:
       name: Sprite_Mario_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 77
-        width: 17
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3
+        y: 78
+        width: 15
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -318,12 +318,12 @@ TextureImporter:
       name: Sprite_Mario_1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 77
-        width: 18
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 20
+        y: 78
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -340,12 +340,12 @@ TextureImporter:
       name: Sprite_Mario_2
       rect:
         serializedVersion: 2
-        x: 36
-        y: 77
-        width: 18
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 37
+        y: 78
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -362,12 +362,12 @@ TextureImporter:
       name: Sprite_Mario_3
       rect:
         serializedVersion: 2
-        x: 53
-        y: 77
-        width: 18
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 54
+        y: 78
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -384,12 +384,12 @@ TextureImporter:
       name: Sprite_Mario_4
       rect:
         serializedVersion: 2
-        x: 70
-        y: 77
-        width: 18
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 71
+        y: 78
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -406,12 +406,12 @@ TextureImporter:
       name: Sprite_Mario_5
       rect:
         serializedVersion: 2
-        x: 87
-        y: 78
-        width: 18
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 88
+        y: 79
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -428,12 +428,12 @@ TextureImporter:
       name: Sprite_Mario_6
       rect:
         serializedVersion: 2
-        x: 106
-        y: 77
-        width: 18
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 107
+        y: 78
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -450,12 +450,12 @@ TextureImporter:
       name: Sprite_Mario_7
       rect:
         serializedVersion: 2
-        x: 124
-        y: 75
-        width: 18
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 125
+        y: 76
+        width: 16
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -472,12 +472,12 @@ TextureImporter:
       name: Sprite_Mario_8
       rect:
         serializedVersion: 2
-        x: 143
-        y: 75
-        width: 18
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 144
+        y: 76
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -494,12 +494,12 @@ TextureImporter:
       name: Sprite_Mario_9
       rect:
         serializedVersion: 2
-        x: 166
-        y: 76
-        width: 18
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 167
+        y: 77
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -516,12 +516,12 @@ TextureImporter:
       name: Sprite_Mario_10
       rect:
         serializedVersion: 2
-        x: 184
-        y: 74
-        width: 18
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 185
+        y: 75
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -538,12 +538,12 @@ TextureImporter:
       name: Sprite_Mario_11
       rect:
         serializedVersion: 2
-        x: 203
-        y: 74
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 204
+        y: 75
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -560,12 +560,12 @@ TextureImporter:
       name: Sprite_Mario_12
       rect:
         serializedVersion: 2
-        x: 220
-        y: 74
-        width: 18
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 221
+        y: 75
+        width: 16
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -582,12 +582,12 @@ TextureImporter:
       name: Sprite_Mario_13
       rect:
         serializedVersion: 2
-        x: 240
-        y: 74
-        width: 28
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 241
+        y: 75
+        width: 26
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -604,12 +604,12 @@ TextureImporter:
       name: Sprite_Mario_14
       rect:
         serializedVersion: 2
-        x: 268
-        y: 74
-        width: 18
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 269
+        y: 75
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -626,12 +626,12 @@ TextureImporter:
       name: Sprite_Mario_15
       rect:
         serializedVersion: 2
-        x: 285
-        y: 74
-        width: 18
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 286
+        y: 75
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -648,12 +648,12 @@ TextureImporter:
       name: Sprite_Mario_16
       rect:
         serializedVersion: 2
-        x: 305
-        y: 74
-        width: 18
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 306
+        y: 75
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -670,12 +670,12 @@ TextureImporter:
       name: Sprite_Mario_17
       rect:
         serializedVersion: 2
-        x: 325
-        y: 74
-        width: 20
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 326
+        y: 75
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -692,12 +692,12 @@ TextureImporter:
       name: Sprite_Mario_18
       rect:
         serializedVersion: 2
-        x: 345
-        y: 74
-        width: 20
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 346
+        y: 75
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -714,12 +714,12 @@ TextureImporter:
       name: Sprite_Mario_19
       rect:
         serializedVersion: 2
-        x: 365
-        y: 75
-        width: 20
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 366
+        y: 76
+        width: 18
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -736,12 +736,12 @@ TextureImporter:
       name: Sprite_Mario_20
       rect:
         serializedVersion: 2
-        x: 387
-        y: 74
-        width: 21
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 388
+        y: 75
+        width: 19
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -758,12 +758,12 @@ TextureImporter:
       name: Sprite_Mario_21
       rect:
         serializedVersion: 2
-        x: 410
-        y: 74
-        width: 17
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 411
+        y: 75
+        width: 15
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -780,12 +780,12 @@ TextureImporter:
       name: Sprite_Mario_22
       rect:
         serializedVersion: 2
-        x: 427
-        y: 74
-        width: 18
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 428
+        y: 75
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -802,12 +802,12 @@ TextureImporter:
       name: Sprite_Mario_23
       rect:
         serializedVersion: 2
-        x: 445
-        y: 75
-        width: 17
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 446
+        y: 76
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -825,11 +825,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 50
-        width: 24
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 51
+        width: 23
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -846,12 +846,12 @@ TextureImporter:
       name: Sprite_Mario_25
       rect:
         serializedVersion: 2
-        x: 25
-        y: 53
-        width: 28
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 26
+        y: 54
+        width: 26
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -868,12 +868,12 @@ TextureImporter:
       name: Sprite_Mario_26
       rect:
         serializedVersion: 2
-        x: 56
-        y: 51
-        width: 28
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 57
+        y: 52
+        width: 26
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -890,12 +890,12 @@ TextureImporter:
       name: Sprite_Mario_27
       rect:
         serializedVersion: 2
-        x: 92
-        y: 51
-        width: 27
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 93
+        y: 52
+        width: 25
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -912,12 +912,12 @@ TextureImporter:
       name: Sprite_Mario_28
       rect:
         serializedVersion: 2
-        x: 123
-        y: 44
-        width: 22
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 124
+        y: 45
+        width: 20
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -934,12 +934,12 @@ TextureImporter:
       name: Sprite_Mario_29
       rect:
         serializedVersion: 2
-        x: 147
-        y: 44
-        width: 21
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 148
+        y: 45
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -956,12 +956,12 @@ TextureImporter:
       name: Sprite_Mario_30
       rect:
         serializedVersion: 2
-        x: 169
-        y: 44
-        width: 21
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 170
+        y: 45
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -978,12 +978,12 @@ TextureImporter:
       name: Sprite_Mario_31
       rect:
         serializedVersion: 2
-        x: 194
-        y: 44
-        width: 22
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 195
+        y: 45
+        width: 20
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1000,12 +1000,12 @@ TextureImporter:
       name: Sprite_Mario_32
       rect:
         serializedVersion: 2
-        x: 217
-        y: 44
-        width: 22
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 218
+        y: 45
+        width: 20
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1022,12 +1022,12 @@ TextureImporter:
       name: Sprite_Mario_33
       rect:
         serializedVersion: 2
-        x: 239
-        y: 44
-        width: 22
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 240
+        y: 45
+        width: 20
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1044,12 +1044,12 @@ TextureImporter:
       name: Sprite_Mario_34
       rect:
         serializedVersion: 2
-        x: 261
-        y: 42
-        width: 18
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 262
+        y: 43
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1066,12 +1066,12 @@ TextureImporter:
       name: Sprite_Mario_35
       rect:
         serializedVersion: 2
-        x: 278
-        y: 42
-        width: 22
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 279
+        y: 43
+        width: 20
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1088,12 +1088,12 @@ TextureImporter:
       name: Sprite_Mario_36
       rect:
         serializedVersion: 2
-        x: 302
-        y: 41
-        width: 18
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 303
+        y: 42
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1110,12 +1110,12 @@ TextureImporter:
       name: Sprite_Mario_37
       rect:
         serializedVersion: 2
-        x: 319
-        y: 41
-        width: 23
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 42
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1132,12 +1132,12 @@ TextureImporter:
       name: Sprite_Mario_38
       rect:
         serializedVersion: 2
-        x: 344
-        y: 41
-        width: 18
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 345
+        y: 42
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1154,12 +1154,12 @@ TextureImporter:
       name: Sprite_Mario_39
       rect:
         serializedVersion: 2
-        x: 363
-        y: 41
-        width: 18
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 364
+        y: 42
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1176,12 +1176,12 @@ TextureImporter:
       name: Sprite_Mario_40
       rect:
         serializedVersion: 2
-        x: 387
-        y: 41
-        width: 18
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 388
+        y: 42
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1198,12 +1198,12 @@ TextureImporter:
       name: Sprite_Mario_41
       rect:
         serializedVersion: 2
-        x: 407
-        y: 41
-        width: 18
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 408
+        y: 42
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1220,12 +1220,12 @@ TextureImporter:
       name: Sprite_Mario_42
       rect:
         serializedVersion: 2
-        x: 427
-        y: 42
-        width: 24
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 428
+        y: 43
+        width: 22
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1242,12 +1242,12 @@ TextureImporter:
       name: Sprite_Mario_43
       rect:
         serializedVersion: 2
-        x: 452
-        y: 42
-        width: 19
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 453
+        y: 43
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1264,12 +1264,12 @@ TextureImporter:
       name: Sprite_Mario_44
       rect:
         serializedVersion: 2
-        x: 0
-        y: 14
-        width: 18
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1
+        y: 15
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1286,12 +1286,12 @@ TextureImporter:
       name: Sprite_Mario_45
       rect:
         serializedVersion: 2
-        x: 22
-        y: 14
-        width: 18
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 23
+        y: 15
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1308,12 +1308,12 @@ TextureImporter:
       name: Sprite_Mario_46
       rect:
         serializedVersion: 2
-        x: 40
-        y: 14
-        width: 18
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 41
+        y: 15
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1330,12 +1330,12 @@ TextureImporter:
       name: Sprite_Mario_47
       rect:
         serializedVersion: 2
-        x: 60
-        y: 14
-        width: 18
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 61
+        y: 15
+        width: 16
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1352,12 +1352,12 @@ TextureImporter:
       name: Sprite_Mario_48
       rect:
         serializedVersion: 2
-        x: 78
-        y: 14
-        width: 17
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 79
+        y: 15
+        width: 15
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1374,12 +1374,12 @@ TextureImporter:
       name: Sprite_Mario_49
       rect:
         serializedVersion: 2
-        x: 96
-        y: 16
-        width: 18
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 97
+        y: 17
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1396,12 +1396,12 @@ TextureImporter:
       name: Sprite_Mario_50
       rect:
         serializedVersion: 2
-        x: 121
-        y: 12
-        width: 18
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 122
+        y: 13
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1418,12 +1418,12 @@ TextureImporter:
       name: Sprite_Mario_51
       rect:
         serializedVersion: 2
-        x: 142
-        y: 11
-        width: 18
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 143
+        y: 12
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1440,12 +1440,12 @@ TextureImporter:
       name: Sprite_Mario_52
       rect:
         serializedVersion: 2
-        x: 163
-        y: 11
-        width: 18
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 164
+        y: 12
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1462,12 +1462,12 @@ TextureImporter:
       name: Sprite_Mario_53
       rect:
         serializedVersion: 2
-        x: 184
-        y: 9
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 185
+        y: 10
+        width: 28
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1484,12 +1484,12 @@ TextureImporter:
       name: Sprite_Mario_54
       rect:
         serializedVersion: 2
-        x: 217
-        y: 8
-        width: 31
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 218
+        y: 9
+        width: 29
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1506,12 +1506,12 @@ TextureImporter:
       name: Sprite_Mario_55
       rect:
         serializedVersion: 2
-        x: 252
-        y: 8
-        width: 29
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 253
+        y: 9
+        width: 27
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1528,12 +1528,12 @@ TextureImporter:
       name: Sprite_Mario_56
       rect:
         serializedVersion: 2
-        x: 285
-        y: 6
-        width: 26
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 286
+        y: 7
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1550,12 +1550,12 @@ TextureImporter:
       name: Sprite_Mario_57
       rect:
         serializedVersion: 2
-        x: 314
-        y: 5
-        width: 26
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 315
+        y: 6
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1572,12 +1572,12 @@ TextureImporter:
       name: Sprite_Mario_58
       rect:
         serializedVersion: 2
-        x: 344
+        x: 345
         y: 0
-        width: 18
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1594,12 +1594,12 @@ TextureImporter:
       name: Sprite_Mario_59
       rect:
         serializedVersion: 2
-        x: 364
-        y: 5
-        width: 17
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 365
+        y: 6
+        width: 15
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1616,12 +1616,12 @@ TextureImporter:
       name: Sprite_Mario_60
       rect:
         serializedVersion: 2
-        x: 388
-        y: 3
-        width: 18
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 389
+        y: 4
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1638,7 +1638,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 83546d21e511cdb4b97ed1e6d8f40738
     internalID: 0
     vertices: []
     indices: 
@@ -1647,7 +1647,68 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sprite_Mario_0: 4638078165498462608
+      Sprite_Mario_1: 7535359878243092818
+      Sprite_Mario_10: 8537440539389071336
+      Sprite_Mario_11: 1357806328429647872
+      Sprite_Mario_12: -598077030875622236
+      Sprite_Mario_13: -7156801889515416839
+      Sprite_Mario_14: 7980998295276442
+      Sprite_Mario_15: 5708472064614676027
+      Sprite_Mario_16: -9218963548213284818
+      Sprite_Mario_17: -8647316737487248356
+      Sprite_Mario_18: 4567098361401889599
+      Sprite_Mario_19: 7479211179968422096
+      Sprite_Mario_2: -3905991941800648080
+      Sprite_Mario_20: -1941499065591448453
+      Sprite_Mario_21: -4629119407898994041
+      Sprite_Mario_22: -5511660270334715914
+      Sprite_Mario_23: 6347872850137420558
+      Sprite_Mario_24: 1855175835024724854
+      Sprite_Mario_25: -3598681989761177212
+      Sprite_Mario_26: 7762986594224042539
+      Sprite_Mario_27: -1724382975095085423
+      Sprite_Mario_28: 4008937936191787000
+      Sprite_Mario_29: 3336705031637967656
+      Sprite_Mario_3: 1554904934580016266
+      Sprite_Mario_30: -5444284473453412056
+      Sprite_Mario_31: -3239394828119450290
+      Sprite_Mario_32: 5513065419899303231
+      Sprite_Mario_33: 8491002066584885046
+      Sprite_Mario_34: -7562379391476108956
+      Sprite_Mario_35: 3014445400692401966
+      Sprite_Mario_36: -6005365102188713975
+      Sprite_Mario_37: 8706566674536967793
+      Sprite_Mario_38: -3604062871113111416
+      Sprite_Mario_39: -4622941222364186104
+      Sprite_Mario_4: -3171580361127328770
+      Sprite_Mario_40: 5778968304725270991
+      Sprite_Mario_41: 7599126599415133676
+      Sprite_Mario_42: 6996871328585145904
+      Sprite_Mario_43: 8998336714475331594
+      Sprite_Mario_44: 1329661449039804243
+      Sprite_Mario_45: 3354623957607304124
+      Sprite_Mario_46: 7368133104323931243
+      Sprite_Mario_47: 3302078408146908689
+      Sprite_Mario_48: -4040994371160570336
+      Sprite_Mario_49: 2070263079612885921
+      Sprite_Mario_5: -7207716073158996441
+      Sprite_Mario_50: -5021473000565013323
+      Sprite_Mario_51: -3917910848853407703
+      Sprite_Mario_52: 2024578721505582386
+      Sprite_Mario_53: -991126873710766664
+      Sprite_Mario_54: -2451452407061476743
+      Sprite_Mario_55: -9079682761693699110
+      Sprite_Mario_56: 102199271187479275
+      Sprite_Mario_57: 4596178438584576817
+      Sprite_Mario_58: -223910129502012368
+      Sprite_Mario_59: -7734174553045002093
+      Sprite_Mario_6: 5693412132100505836
+      Sprite_Mario_60: 1622122130505264950
+      Sprite_Mario_7: -1236749345658543323
+      Sprite_Mario_8: -5672653749854861051
+      Sprite_Mario_9: 3387244394707617170
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
