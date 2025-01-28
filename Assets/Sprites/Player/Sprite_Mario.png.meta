@@ -1327,7 +1327,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_47
+      name: marioFire1
       rect:
         serializedVersion: 2
         x: 61
@@ -1349,7 +1349,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_48
+      name: marioFire2
       rect:
         serializedVersion: 2
         x: 79
@@ -1371,7 +1371,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_49
+      name: marioFire3
       rect:
         serializedVersion: 2
         x: 97
@@ -1459,7 +1459,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_53
+      name: mJumpAtk1
       rect:
         serializedVersion: 2
         x: 185
@@ -1481,7 +1481,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_54
+      name: mJumpAtk2
       rect:
         serializedVersion: 2
         x: 218
@@ -1503,7 +1503,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_55
+      name: mJumpAtk3
       rect:
         serializedVersion: 2
         x: 253
@@ -1525,7 +1525,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_56
+      name: mJumpAtk4
       rect:
         serializedVersion: 2
         x: 286
@@ -1547,7 +1547,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_57
+      name: mJumpAtk5
       rect:
         serializedVersion: 2
         x: 315
@@ -1569,7 +1569,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_58
+      name: mJumpAtk6
       rect:
         serializedVersion: 2
         x: 345
@@ -1685,27 +1685,27 @@ TextureImporter:
       Sprite_Mario_44: 1329661449039804243
       Sprite_Mario_45: 3354623957607304124
       Sprite_Mario_46: 7368133104323931243
-      Sprite_Mario_47: 3302078408146908689
-      Sprite_Mario_48: -4040994371160570336
-      Sprite_Mario_49: 2070263079612885921
       Sprite_Mario_5: -7207716073158996441
       Sprite_Mario_50: -5021473000565013323
       Sprite_Mario_51: -3917910848853407703
       Sprite_Mario_52: 2024578721505582386
-      Sprite_Mario_53: -991126873710766664
-      Sprite_Mario_54: -2451452407061476743
-      Sprite_Mario_55: -9079682761693699110
-      Sprite_Mario_56: 102199271187479275
-      Sprite_Mario_57: 4596178438584576817
-      Sprite_Mario_58: -223910129502012368
       Sprite_Mario_59: -7734174553045002093
       Sprite_Mario_6: 5693412132100505836
       Sprite_Mario_60: 1622122130505264950
       Sprite_Mario_7: -1236749345658543323
       idle: 4638078165498462608
+      mJumpAtk1: -991126873710766664
+      mJumpAtk2: -2451452407061476743
+      mJumpAtk3: -9079682761693699110
+      mJumpAtk4: 102199271187479275
+      mJumpAtk5: 4596178438584576817
+      mJumpAtk6: -223910129502012368
       marioDuck1: -598077030875622236
       marioDuck2: 1357806328429647872
       marioFall: 3387244394707617170
+      marioFire1: 3302078408146908689
+      marioFire2: -4040994371160570336
+      marioFire3: 2070263079612885921
       marioJump: -5672653749854861051
       marioWalk1: 7535359878243092818
       marioWalk2: -3905991941800648080
