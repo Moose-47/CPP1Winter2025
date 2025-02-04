@@ -12665,7 +12665,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_477
+      name: speed
       rect:
         serializedVersion: 2
         x: 465
@@ -14139,7 +14139,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_544
+      name: life
       rect:
         serializedVersion: 2
         x: 465
@@ -15481,7 +15481,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_605
+      name: score
       rect:
         serializedVersion: 2
         x: 465
@@ -17718,7 +17718,6 @@ TextureImporter:
       Sprite_Enemies_474: -1042815359059610409
       Sprite_Enemies_475: -738499958791344661
       Sprite_Enemies_476: -824628735709515093
-      Sprite_Enemies_477: -7432345052793944265
       Sprite_Enemies_478: 7442192963270643119
       Sprite_Enemies_479: -7601143316258707284
       Sprite_Enemies_48: -8131861566920867998
@@ -17793,7 +17792,6 @@ TextureImporter:
       Sprite_Enemies_541: -1292532902337279461
       Sprite_Enemies_542: 7806932349970511692
       Sprite_Enemies_543: -292688828433785538
-      Sprite_Enemies_544: -352707355821612471
       Sprite_Enemies_545: 303242255205438574
       Sprite_Enemies_546: 5120366532881077422
       Sprite_Enemies_547: 3203313839470399120
@@ -17861,7 +17859,6 @@ TextureImporter:
       Sprite_Enemies_602: 7384030705924402287
       Sprite_Enemies_603: 6484791051672530737
       Sprite_Enemies_604: 7631223195634797976
-      Sprite_Enemies_605: -6851748044711201614
       Sprite_Enemies_606: 2251601406056833474
       Sprite_Enemies_607: 8489004635490954630
       Sprite_Enemies_608: 757461225238518542
@@ -17984,7 +17981,10 @@ TextureImporter:
       Sprite_Enemies_97: -5235741533605767461
       Sprite_Enemies_98: -3146763840220451440
       Sprite_Enemies_99: 3848975548304371034
+      life: -352707355821612471
       playerProjectile: -7185912387340643949
+      score: -6851748044711201614
+      speed: -7432345052793944265
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

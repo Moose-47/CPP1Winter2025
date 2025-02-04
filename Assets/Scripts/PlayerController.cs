@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 //Creates rigidbody2d attached to whatever this script is attached to and prevents removal of rigidbody2d from object.
@@ -6,14 +7,14 @@ using UnityEngine;
 [RequireComponent(typeof(GroundCheck))]
 public class PlayerController : MonoBehaviour
 {
-/*public makes it available in unity to change from in engine and not just from script
-  having [x] applies to the below var. In this case setting the range that the player speed can be.*/
+    /*public makes it available in unity to change from in engine and not just from script
+      having [x] applies to the below var. In this case setting the range that the player speed can be.*/
     [Range(3, 10)]
     public float speed = 5.0f;
     [Range(5, 15)]
     public float jumpForce = 9.0f;
+    private Coroutine speedChange = null;
 
-  
     private Rigidbody2D rb;
     private SpriteRenderer sr;
     private Animator anim;
@@ -21,7 +22,35 @@ public class PlayerController : MonoBehaviour
 
     bool isGrounded = false;
 
+    private int maxLives = 10;
+    private int _lives = 5;
+    //option1
+    public int lives
+    {
+        get => _lives;
+        set
+        {
+            _lives = value;
+            if(_lives > maxLives)
+            {
+                _lives = maxLives;
+            }
+        }
+    }
+    //option2
+    public int GetLives() {return lives; }
+    public void SetLives(int value) 
+    { 
+        lives = value;
+        if (lives > maxLives) { lives = maxLives;}
+    }
 
+    private int _score = 0;
+    public int score
+    {
+        get => _score;
+        set => _score = value;
+    }
 // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -54,11 +83,13 @@ public class PlayerController : MonoBehaviour
             fire();
         }
     }
+
+
     void checkGrounded()
     {
         if (!isGrounded)
         {
-            if (rb.linearVelocity.y <= 0) isGrounded = grChk.isGrounded();
+            if (rb.linearVelocity.y <= 0.1) isGrounded = grChk.isGrounded();
         }
         else isGrounded = grChk.isGrounded();        
     }
@@ -105,7 +136,41 @@ public class PlayerController : MonoBehaviour
     void animations()
     {
         anim.SetBool("isGrounded", isGrounded);
-        anim.SetBool("isFalling", rb.linearVelocity.y < -0.1f);
-        anim.SetBool("isDucking", Input.GetButton("Vertical"));
+        anim.SetBool("isFalling", rb.linearVelocity.y < 0.1f);
+        anim.SetBool("isDucking", Input.GetAxis("Vertical") < 0);
+    }
+
+
+    //PowerUP speed boost.
+    public void SpeedChange()
+    {
+        if (speedChange != null)
+        {
+           StopCoroutine(speedChange);
+           speed /= 2;          
+        }
+        speedChange = StartCoroutine(SpeedChangeCoroutine());
+    }
+    IEnumerator  SpeedChangeCoroutine()
+    {
+        //Do something immediately
+        speed *= 2;
+
+        yield return new WaitForSeconds(5.0f);
+
+        //Do something after 5 seconds
+        speed /= 2;
+    }
+
+    //Detect pickup
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Ipickups pickup = collision.gameObject.GetComponent<Ipickups>();
+        if (pickup != null) pickup.Pickup(this);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Ipickups pickup = collision.GetComponent<Ipickups>();
+        if (pickup != null) pickup.Pickup(this);
     }
 }
