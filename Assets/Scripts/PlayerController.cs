@@ -172,5 +172,13 @@ public class PlayerController : MonoBehaviour
     {
         Ipickups pickup = collision.GetComponent<Ipickups>();
         if (pickup != null) pickup.Pickup(this);
+
+        if (collision.CompareTag("squish") && rb.linearVelocityY < 0)
+        {
+            collision.enabled = false;
+            collision.gameObject.GetComponentInParent<Enemy>().takeDamage(9999, DamageType.JumpedOn);
+            rb.linearVelocity = Vector2.zero;
+            rb.AddForce(Vector2.up * 6, ForceMode2D.Impulse);
+        }
     }
 }
