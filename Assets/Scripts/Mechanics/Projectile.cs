@@ -35,5 +35,11 @@ public class Projectile : MonoBehaviour
         
         if (collision.collider.CompareTag("Player"))
             Destroy(gameObject);
+        if (gameObject.CompareTag("eProj") && collision.gameObject.CompareTag("Player"))
+        {
+            GameManager.Instance.lives--;
+            Debug.Log(GameManager.Instance.lives);
+            Destroy(gameObject);
+        }
     }
 }

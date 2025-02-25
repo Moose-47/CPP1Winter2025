@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
 {
     /*public makes it available in unity to change from in engine and not just from script
       having [x] applies to the below var. In this case setting the range that the player speed can be.*/
+
     [Range(3, 10)]
     public float speed = 5.0f;
     [Range(5, 15)]
@@ -22,35 +23,6 @@ public class PlayerController : MonoBehaviour
 
     bool isGrounded = false;
 
-    private int maxLives = 10;
-    private int _lives = 5;
-    //option1
-    public int lives
-    {
-        get => _lives;
-        set
-        {
-            _lives = value;
-            if(_lives > maxLives)
-            {
-                _lives = maxLives;
-            }
-        }
-    }
-    //option2
-    public int GetLives() {return lives; }
-    public void SetLives(int value) 
-    { 
-        lives = value;
-        if (lives > maxLives) { lives = maxLives;}
-    }
-
-    private int _score = 0;
-    public int score
-    {
-        get => _score;
-        set => _score = value;
-    }
 // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

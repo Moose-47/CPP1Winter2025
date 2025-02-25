@@ -13,11 +13,19 @@ public class Kamek : Enemy
         base.Start();
 
         if (fireRate <= 0) fireRate = 2.0f;
-
-        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
-        if (playerObj) player = playerObj.transform;
     }
-
+    private void OnEnable()
+    {
+        GameManager.Instance.OnPlayerSpawned += OnPlayerSpawnedCallback;
+    }
+    private void OnDisable()
+    {
+        GameManager.Instance.OnPlayerSpawned -= OnPlayerSpawnedCallback;
+    }
+    private void OnPlayerSpawnedCallback(PlayerController controller)
+    {
+        player = controller.transform;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -42,7 +50,7 @@ public class Kamek : Enemy
     {
         if (player == null) return;
 
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+        float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
 
         if (distanceToPlayer <= atkRange && Time.time >= timeSinceLastFire + fireRate)
         {

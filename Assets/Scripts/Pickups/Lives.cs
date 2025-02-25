@@ -4,7 +4,7 @@ public class Lives : MonoBehaviour, Ipickups
 {
     public void Pickup(PlayerController player)
     {
-        player.lives++;
+        GameManager.Instance.lives++;
         Destroy(gameObject);
     }
 }
