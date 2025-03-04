@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 //Creates rigidbody2d attached to whatever this script is attached to and prevents removal of rigidbody2d from object.
 //ReuireComponent can only contain 3 in a single statement, additonal lines would be required for more.
@@ -98,6 +99,7 @@ public class PlayerController : MonoBehaviour
     }
     void fire()
     {
+        if (EventSystem.current.IsPointerOverGameObject()) return;
         if (Input.GetButtonDown("Fire1"))
         {
             anim.SetTrigger("Fire");

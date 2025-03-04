@@ -1,6 +1,8 @@
 using System;
+using System.Xml.Serialization;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 [DefaultExecutionOrder(-1)]
 public class GameManager : MonoBehaviour
@@ -8,8 +10,8 @@ public class GameManager : MonoBehaviour
     private static GameManager _instance;
     public static GameManager Instance => _instance;
     public event Action<PlayerController> OnPlayerSpawned;
-
-    #region Game Properties
+    public UnityEvent<int> OnLifeValueChanged;
+#region Game Properties
     private int _score = 0;
     public int score
     {
@@ -32,10 +34,10 @@ public class GameManager : MonoBehaviour
             if (_lives > value) Respawn();
             
             _lives = value;
-            if (_lives > maxLives)
-            {
-                _lives = maxLives;
-            }
+
+            if (_lives > maxLives) _lives = maxLives;
+            
+            OnLifeValueChanged?.Invoke(_lives);
         }
     }
     #endregion
@@ -76,6 +78,7 @@ public class GameManager : MonoBehaviour
     }
     void gameOver()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("GameOver");
         Debug.Log("Game Over goes here");
         lives = 5;
@@ -95,5 +98,10 @@ public class GameManager : MonoBehaviour
     {
         currentCheckpoint = updatedCheckpoint;
         Debug.Log("Checkpoint updated");
+    }
+    public void ChangeScene(string sceneName)
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(sceneName);
     }
 }
