@@ -90,7 +90,7 @@ public class GameManager : MonoBehaviour
     }
     public void InstantiatePlayer(Transform spawnLocation)
     {
-        _playerInstance = Instantiate(playerPrefab, spawnLocation.position.normalized, Quaternion.identity);
+        _playerInstance = Instantiate(playerPrefab, spawnLocation.position, Quaternion.identity);
         currentCheckpoint = spawnLocation;
         OnPlayerSpawned?.Invoke(_playerInstance);
     }
